@@ -1,7 +1,6 @@
 function calcAverageCalories(days) {
   if (days.length === 0) {
-    console.log("Error: The 'days' array is empty.");
-    return null;
+    return 0;
   }
   let totalCalories = 0;
   const numberOfDays = days.length;
